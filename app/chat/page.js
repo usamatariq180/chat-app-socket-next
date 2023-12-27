@@ -2,7 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:3001'); // Connect to your server
+// const socket = io('http://localhost:3001'); // Connect to your server
+const socket = io('https://lvf3bd2s-3001.inc1.devtunnels.ms/');
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);
